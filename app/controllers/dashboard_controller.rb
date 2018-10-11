@@ -1,6 +1,4 @@
-class DashboardController < ApplicationController
-  include Secured
-
+class DashboardController < LoginController
   def show
 
   end

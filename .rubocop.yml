@@ -1,0 +1,38 @@
+inherit_from: .rubocop_todo.yml
+
+Style/GuardClause:
+  Enabled: false
+
+Style/EmptyElse:
+  Enabled: false
+
+Style/BlockDelimiters:
+  Enabled: false
+
+AllCops:
+  Exclude:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  ExtraDetails: true
+  UseCache: true
+  TargetRubyVersion: 2.4
+
+Metrics/MethodLength:
+  Exclude:
+    - 'db/migrate/*'
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*_spec.rb'
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/RescueModifier:
+  Enabled: false
+
+Layout/CommentIndentation:
+  Enabled: false
+
+Documentation:
+  Enabled: false

@@ -212,3 +212,191 @@ Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-11 11:09:06 +0100
 Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-11 11:09:07 +0100
 Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-11 11:09:33 +0100
 Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-11 11:09:33 +0100
+Started GET "/" for 127.0.0.1 at 2018-10-11 11:14:37 +0100
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 191ms (Views: 180.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-11 11:14:39 +0100
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-11 11:14:40 +0100
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-11 11:26:56 +0100
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-11 11:28:57 +0100
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-11 11:28:57 +0100
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+Started GET "/" for 127.0.0.1 at 2018-10-11 16:56:27 +0100
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 321ms (Views: 312.1ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+Started GET "/" for 127.0.0.1 at 2018-10-11 16:57:26 +0100
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 249ms (Views: 240.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-11 16:57:58 +0100
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 39ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-11 16:58:03 +0100
+(bnet) Request phase initiated.
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-11 16:58:04 +0100
+(bnet) Request phase initiated.
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+Started GET "/" for 127.0.0.1 at 2018-10-11 17:19:29 +0100
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 271ms (Views: 260.2ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+Started GET "/" for 127.0.0.1 at 2018-10-11 17:20:44 +0100
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 255ms (Views: 245.8ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+Started GET "/" for 127.0.0.1 at 2018-10-11 17:29:41 +0100
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 260ms (Views: 249.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-11 17:29:44 +0100
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 25ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+Started GET "/" for 127.0.0.1 at 2018-10-11 17:45:48 +0100
+  
+ActionController::RoutingError (undefined method `before_filter' for ApplicationController:Class
+Did you mean?  before_action):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/home_controller.rb:1:in `<main>'
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+Started GET "/" for 127.0.0.1 at 2018-10-12 15:47:49 +0100
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 264ms (Views: 253.9ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+Started GET "/" for 127.0.0.1 at 2018-10-12 15:50:43 +0100
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 254ms (Views: 244.4ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+Started GET "/" for 127.0.0.1 at 2018-10-12 15:59:44 +0100
+Processing by HomeController#show as HTML
+Redirected to http://localhost:3000/auth/bnet
+Filter chain halted as :require_token! rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-12 15:59:44 +0100
+(bnet) Request phase initiated.
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+Started GET "/" for 127.0.0.1 at 2018-10-12 16:05:42 +0100
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 274ms (Views: 264.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-12 16:05:47 +0100
+(bnet) Request phase initiated.
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-12 16:05:47 +0100
+(bnet) Request phase initiated.
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+Started GET "/" for 127.0.0.1 at 2018-10-12 16:11:17 +0100
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 254ms (Views: 245.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-12 16:11:21 +0100
+(bnet) Request phase initiated.
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-12 16:11:21 +0100
+(bnet) Request phase initiated.
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+Started GET "/" for 127.0.0.1 at 2018-10-12 16:29:59 +0100
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 234ms (Views: 225.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-12 16:30:03 +0100
+(bnet) Request phase initiated.
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-12 16:30:04 +0100
+(bnet) Request phase initiated.
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+Started GET "/" for 127.0.0.1 at 2018-10-12 17:01:37 +0100
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 250ms (Views: 246.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-12 17:01:40 +0100
+(bnet) Request phase initiated.
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-12 17:01:40 +0100
+(bnet) Request phase initiated.
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+Started GET "/" for 127.0.0.1 at 2018-10-12 17:05:27 +0100
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 283ms (Views: 277.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-12 17:05:31 +0100
+(bnet) Request phase initiated.
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-12 17:05:31 +0100
+(bnet) Request phase initiated.
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+Started GET "/" for 127.0.0.1 at 2018-10-12 17:07:09 +0100
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 264ms (Views: 261.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-12 17:07:13 +0100
+(bnet) Request phase initiated.
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-12 17:07:14 +0100
+(bnet) Request phase initiated.
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-12 17:10:49 +0100
+(bnet) Request phase initiated.
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-12 17:10:50 +0100
+(bnet) Request phase initiated.
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <top (required)> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-12 17:12:13 +0100
+(bnet) Request phase initiated.
+Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-12 17:12:14 +0100
+(bnet) Request phase initiated.

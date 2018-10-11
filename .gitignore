@@ -1,5 +1,32 @@
-.env
-*.log
+# Ignore bundler config.
+/.bundle
+.bundle
 
-tmp/*
-log/*
+# Ignore all logfiles and tempfiles.
+/log/*.log
+
+/tmp/*
+!/tmp/.keep
+
+# Zeus config
+/zeus.json
+/custom_plan.rb
+
+# Ignore bin stubs
+/bin/*
+!/bin/boot
+!/bin/install
+
+# Ignore .DS_Store
+*.DS_Store
+
+# Ignore coverage files
+/coverage
+
+# Ignore IDEs
+/.idea
+
+.env
+
+
+
