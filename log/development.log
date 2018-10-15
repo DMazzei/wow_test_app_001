@@ -400,3 +400,32 @@ Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-12 17:12:13 +0100
 (bnet) Request phase initiated.
 Started GET "/auth/bnet" for 127.0.0.1 at 2018-10-12 17:12:14 +0100
 (bnet) Request phase initiated.
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <main> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+Started GET "/" for ::1 at 2018-10-15 09:08:31 +0100
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 3133ms (Views: 3122.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/bnet" for ::1 at 2018-10-15 09:08:43 +0100
+(bnet) Request phase initiated.
+Started GET "/auth/bnet" for ::1 at 2018-10-15 09:08:43 +0100
+(bnet) Request phase initiated.
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <main> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+Started GET "/" for ::1 at 2018-10-15 09:29:34 +0100
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 3077ms (Views: 3067.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/bnet" for ::1 at 2018-10-15 09:29:53 +0100
+(bnet) Request phase initiated.
+Started GET "/auth/bnet" for ::1 at 2018-10-15 09:29:53 +0100
+(bnet) Request phase initiated.
+DEPRECATION WARNING: `secrets.secret_token` is deprecated in favor of `secret_key_base` and will be removed in Rails 6.0. (called from <main> at /Users/dmazzei/Projects/Personal/WoW/test_app_001/config/environment.rb:5)
+Started GET "/auth/bnet" for ::1 at 2018-10-15 09:35:47 +0100
+(bnet) Request phase initiated.
+Started GET "/auth/bnet" for ::1 at 2018-10-15 09:38:04 +0100
+(bnet) Request phase initiated.
